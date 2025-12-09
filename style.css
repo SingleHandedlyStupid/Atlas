@@ -1,0 +1,76 @@
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #555;
+}
+
+/* Update logs */
+main {
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.log {
+    background-color: #fff;
+    border-left: 5px solid #4caf50;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.log h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.log ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.log li {
+    padding: 6px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+/* Add emoji bullet */
+.log li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+    color: #777;
+    font-size: 0.9rem;
+}
